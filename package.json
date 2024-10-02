@@ -1,0 +1,36 @@
+{
+  "name": "3d-loader-and-exporter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.114.0",
+    "@react-three/fiber": "^8.17.9",
+    "@tresjs/cientos": "^4.0.2",
+    "@tresjs/core": "^4.3.0",
+    "@types/three": "^0.169.0",
+    "3d-loader-and-exporter": "file:",
+    "leva": "^0.9.35",
+    "next": "14.2.14",
+    "react": "^18.3.1",
+    "react-dom": "^18",
+    "three": "^0.169.0",
+    "tunnel-rat": "^0.1.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "daisyui": "^4.12.11",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13"
+  },
+  "overrides": {
+    "leva": {
+      "@radix-ui/react-portal": "1.0.2"
+    }
+  }
+}
