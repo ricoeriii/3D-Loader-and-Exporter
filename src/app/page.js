@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 
-export default function Home() {
+export function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
@@ -107,10 +107,10 @@ import tunnel from 'tunnel-rat'
 const status = tunnel()
 
 const MODELS = {
-  Hand: 'http://localhost:5173/models/hand.obj',
-  Arm: 'http://localhost:5173/models/arm.obj',
-  Foot: 'http://localhost:5173/models/feet.obj',
-  Protohand: 'http://localhost:5173/models/protohand.obj'
+  Hand: '/models/hand.obj',
+  Arm: '/models/arm.obj',
+  Foot: '/models/feet.obj',
+  Protohand: '/models/protohand.obj'
 }
 
 export default function App() {
