@@ -1,4 +1,3 @@
-'use client'
 import localFont from "next/font/local";
 import "./globals.css";
 
@@ -13,10 +12,14 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
+export const metadata = {
+  title: "3D Loader and Exporter",
+  description: "3D Loader and Exporter",
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <title>3D Loader and Exporter</title>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
       </body>
