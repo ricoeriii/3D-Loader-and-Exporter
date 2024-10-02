@@ -1,4 +1,3 @@
-'use client'
 import { Suspense, useDeferredValue, useRef, useLayoutEffect } from 'react'
 import { Canvas,useLoader } from '@react-three/fiber'
 import { OrbitControls, Center } from '@react-three/drei'
