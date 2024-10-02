@@ -17,7 +17,7 @@ const MODELS = {
   Protohand: '/models/protohand.obj'
 }
 
-export default function App() {
+export function Home() {
   const { model } = useControls({ model: { value: 'Hand', options: Object.keys(MODELS) } })
   const { color } = useControls({ color: "#f00" });
   const x = useControls({ x: 1 })
