@@ -11,10 +11,10 @@ import tunnel from 'tunnel-rat'
 const status = tunnel()
 
 const MODELS = {
-  Hand: '/models/hand.obj',
-  Arm: '/models/arm.obj',
-  Foot: '/models/feet.obj',
-  Protohand: '/models/protohand.obj'
+  Hand: 'https://3-d-loader-and-exporter-git-main-rico-eris-projects.vercel.app/models/hand.obj',
+  Arm: 'https://3-d-loader-and-exporter-git-main-rico-eris-projects.vercel.app/models/arm.obj',
+  Foot: 'https://3-d-loader-and-exporter-git-main-rico-eris-projects.vercel.app/models/feet.obj',
+  Protohand: 'https://3-d-loader-and-exporter-git-main-rico-eris-projects.vercel.app/models/protohand.obj'
 }
 
 export function Home() {
