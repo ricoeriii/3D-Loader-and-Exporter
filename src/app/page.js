@@ -16,7 +16,7 @@ const MODELS = {
   Protohand: 'https://3-d-loader-and-exporter-git-main-rico-eris-projects.vercel.app/models/protohand.obj'
 }
 
-export function Home() {
+function Home() {
   const { model } = useControls({ model: { value: 'Hand', options: Object.keys(MODELS) } })
   const { color } = useControls({ color: "#f00" });
   const x = useControls({ x: 1 })
@@ -97,3 +97,5 @@ export function Home() {
     </>
   )
 }
+
+export default Home
